@@ -11,7 +11,7 @@ outputLocation = 'output'
 # to read the video
 print('reading video')
 
-videoPath = 'input/GH060022.MP4'  # path to Video
+videoPath = 'PATH/TO/VIDEO'  # path to Video
 frame_set_no = 100
 cap = cv2.VideoCapture(videoPath)
 fps = cap.get(cv2.CAP_PROP_FPS)
